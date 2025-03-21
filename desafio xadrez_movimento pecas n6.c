@@ -4,14 +4,13 @@ int main(){
 printf("movimento peças xadrez!\n");
 printf("\n");
 
+int bispo =1;
+int torre =1;
+int rainha =1;
+
+
     printf("movimento bispo!\n");
     printf("\n"); 
-
-
-    int bispo = 1;
-    int torre = 1;
-    int rainha = 1;
-
 
      while (bispo <=5)
      {
@@ -48,15 +47,24 @@ printf("\n");
     } while (rainha <= 8);
     printf("\n");
 
-    return 0;
+    printf("\n");
+    printf("movimento cavalo\n");
 
+    printf("\n");
 
+    int cavalo1, cavalo2;
 
+    for (cavalo1 = 1; cavalo1 <= 2 ; cavalo1++)
+    printf("cima\n");
 
+    for (cavalo2 = 2; cavalo2 == 2; cavalo2++)
+    {
+     printf("esquerda\n");   
+    }
 
+        
+    
 
-
-
-
+  return 0;
 
 }
